@@ -14,6 +14,12 @@
 		7615B3CA27843D4700F58EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7615B3C927843D4700F58EC8 /* Assets.xcassets */; };
 		7615B3CD27843D4700F58EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7615B3CB27843D4700F58EC8 /* LaunchScreen.storyboard */; };
 		7615B3D027843D4700F58EC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615B3CF27843D4700F58EC8 /* main.m */; };
+		7615B3D82784472A00F58EC8 /* DisplayTasksVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615B3D72784472A00F58EC8 /* DisplayTasksVC.m */; };
+		7615B3DB2784482F00F58EC8 /* AddTasksVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615B3DA2784482F00F58EC8 /* AddTasksVC.m */; };
+		7615B3DE27845D5400F58EC8 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615B3DD27845D5400F58EC8 /* Task.m */; };
+		767E055D27848470005CEE65 /* high.png in Resources */ = {isa = PBXBuildFile; fileRef = 767E055C27848470005CEE65 /* high.png */; };
+		767E056027848480005CEE65 /* low.png in Resources */ = {isa = PBXBuildFile; fileRef = 767E055E2784847F005CEE65 /* low.png */; };
+		767E056127848480005CEE65 /* medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 767E055F27848480005CEE65 /* medium.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,17 @@
 		7615B3CC27843D4700F58EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7615B3CE27843D4700F58EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7615B3CF27843D4700F58EC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7615B3D62784472A00F58EC8 /* DisplayTasksVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayTasksVC.h; sourceTree = "<group>"; };
+		7615B3D72784472A00F58EC8 /* DisplayTasksVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayTasksVC.m; sourceTree = "<group>"; };
+		7615B3D92784482F00F58EC8 /* AddTasksVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTasksVC.h; sourceTree = "<group>"; };
+		7615B3DA2784482F00F58EC8 /* AddTasksVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTasksVC.m; sourceTree = "<group>"; };
+		7615B3DC27845D5400F58EC8 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		7615B3DD27845D5400F58EC8 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		7615B3DF27845FA500F58EC8 /* delegateData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delegateData.h; sourceTree = "<group>"; };
+		767E055C27848470005CEE65 /* high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = high.png; sourceTree = "<group>"; };
+		767E055E2784847F005CEE65 /* low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = low.png; sourceTree = "<group>"; };
+		767E055F27848480005CEE65 /* medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medium.png; sourceTree = "<group>"; };
+		7696FF3D2784A24C0082A461 /* editDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,9 @@
 		7615B3BC27843D4400F58EC8 /* TODOList */ = {
 			isa = PBXGroup;
 			children = (
+				767E055C27848470005CEE65 /* high.png */,
+				767E055E2784847F005CEE65 /* low.png */,
+				767E055F27848480005CEE65 /* medium.png */,
 				7615B3BD27843D4400F58EC8 /* AppDelegate.h */,
 				7615B3BE27843D4400F58EC8 /* AppDelegate.m */,
 				7615B3C027843D4400F58EC8 /* SceneDelegate.h */,
@@ -72,6 +92,14 @@
 				7615B3CB27843D4700F58EC8 /* LaunchScreen.storyboard */,
 				7615B3CE27843D4700F58EC8 /* Info.plist */,
 				7615B3CF27843D4700F58EC8 /* main.m */,
+				7615B3D62784472A00F58EC8 /* DisplayTasksVC.h */,
+				7615B3D72784472A00F58EC8 /* DisplayTasksVC.m */,
+				7615B3D92784482F00F58EC8 /* AddTasksVC.h */,
+				7615B3DA2784482F00F58EC8 /* AddTasksVC.m */,
+				7615B3DC27845D5400F58EC8 /* Task.h */,
+				7615B3DD27845D5400F58EC8 /* Task.m */,
+				7615B3DF27845FA500F58EC8 /* delegateData.h */,
+				7696FF3D2784A24C0082A461 /* editDelegate.h */,
 			);
 			path = TODOList;
 			sourceTree = "<group>";
@@ -133,9 +161,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767E056127848480005CEE65 /* medium.png in Resources */,
 				7615B3CD27843D4700F58EC8 /* LaunchScreen.storyboard in Resources */,
 				7615B3CA27843D4700F58EC8 /* Assets.xcassets in Resources */,
 				7615B3C827843D4400F58EC8 /* Main.storyboard in Resources */,
+				767E056027848480005CEE65 /* low.png in Resources */,
+				767E055D27848470005CEE65 /* high.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7615B3DE27845D5400F58EC8 /* Task.m in Sources */,
+				7615B3D82784472A00F58EC8 /* DisplayTasksVC.m in Sources */,
 				7615B3C527843D4400F58EC8 /* ViewController.m in Sources */,
 				7615B3BF27843D4400F58EC8 /* AppDelegate.m in Sources */,
+				7615B3DB2784482F00F58EC8 /* AddTasksVC.m in Sources */,
 				7615B3D027843D4700F58EC8 /* main.m in Sources */,
 				7615B3C227843D4400F58EC8 /* SceneDelegate.m in Sources */,
 			);

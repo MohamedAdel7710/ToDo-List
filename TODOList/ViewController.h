@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Task.h"
+#import "delegateData.h"
+#import "editDelegate.h"
+@interface ViewController : UIViewController <delegate,UITableViewDelegate,UITableViewDataSource,editDelegate,UISearchBarDelegate   >
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
-@interface ViewController : UIViewController
+
+@property NSMutableArray *tasks;
+
+- (IBAction)ChangeView:(id)sender;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *viewOption;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+
 
 
 @end

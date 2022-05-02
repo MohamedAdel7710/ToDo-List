@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__28-[DisplayTasksVC applyEdit:]_block_invoke:DisplayTasksVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.statusUpdate.selectedSegmentIndex">
+            </PersistentString>
+            <PersistentString
+               value = "self.taskData.status">
+            </PersistentString>
+            <PersistentString
+               value = "self.prioritySeg.selectedSegmentIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
