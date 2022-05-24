@@ -1,6 +1,6 @@
 # To-Do Application
 
-Foobar is a Python library for dealing with word pluralization.
+to-do list iOS Application built in Objective-C
 
 ## This app demonstrates the following features:
 
