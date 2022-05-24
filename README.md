@@ -2,8 +2,7 @@
 
 Foobar is a Python library for dealing with word pluralization.
 
-## Features
-This app demonstrates the following features:
+## This app demonstrates the following features:
 
   Create a task with a priority.
 
